@@ -1,0 +1,12 @@
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\bin\Debug\net6.0\EgyptianRecipes.Common.deps.json
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\bin\Debug\net6.0\EgyptianRecipes.Common.dll
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\bin\Debug\net6.0\ref\EgyptianRecipes.Common.dll
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\bin\Debug\net6.0\EgyptianRecipes.Common.pdb
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\obj\Debug\net6.0\EgyptianRecipes.Common.GeneratedMSBuildEditorConfig.editorconfig
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\obj\Debug\net6.0\EgyptianRecipes.Common.AssemblyInfoInputs.cache
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\obj\Debug\net6.0\EgyptianRecipes.Common.AssemblyInfo.cs
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\obj\Debug\net6.0\EgyptianRecipes.Common.csproj.CoreCompileInputs.cache
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\obj\Debug\net6.0\EgyptianRecipes.Common.dll
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\obj\Debug\net6.0\ref\EgyptianRecipes.Common.dll
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\obj\Debug\net6.0\EgyptianRecipes.Common.pdb
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Common\obj\Debug\net6.0\EgyptianRecipes.Common.csproj.AssemblyReference.cache

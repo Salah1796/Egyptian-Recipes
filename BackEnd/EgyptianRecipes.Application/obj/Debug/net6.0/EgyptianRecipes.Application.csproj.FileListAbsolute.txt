@@ -1,0 +1,15 @@
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\obj\Debug\net6.0\EgyptianRecipes.Application.csproj.AssemblyReference.cache
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\obj\Debug\net6.0\EgyptianRecipes.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\obj\Debug\net6.0\EgyptianRecipes.Application.AssemblyInfoInputs.cache
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\obj\Debug\net6.0\EgyptianRecipes.Application.AssemblyInfo.cs
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\obj\Debug\net6.0\EgyptianRecipes.Application.csproj.CoreCompileInputs.cache
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\bin\Debug\net6.0\EgyptianRecipes.Application.deps.json
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\bin\Debug\net6.0\EgyptianRecipes.Application.dll
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\bin\Debug\net6.0\ref\EgyptianRecipes.Application.dll
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\bin\Debug\net6.0\EgyptianRecipes.Application.pdb
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\bin\Debug\net6.0\EgyptianRecipes.Domain.dll
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\bin\Debug\net6.0\EgyptianRecipes.Domain.pdb
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\obj\Debug\net6.0\EgyptianRecipes.Application.csproj.CopyComplete
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\obj\Debug\net6.0\EgyptianRecipes.Application.dll
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\obj\Debug\net6.0\ref\EgyptianRecipes.Application.dll
+G:\asp.net core source code\LINK DEV\EgyptianRecipes.Application\obj\Debug\net6.0\EgyptianRecipes.Application.pdb
