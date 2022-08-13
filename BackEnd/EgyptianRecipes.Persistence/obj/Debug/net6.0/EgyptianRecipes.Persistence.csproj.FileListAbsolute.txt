@@ -15,3 +15,20 @@ G:\asp.net core source code\LINK DEV\EgyptianRecipes.Persistence\obj\Debug\net6.
 G:\asp.net core source code\LINK DEV\EgyptianRecipes.Persistence\obj\Debug\net6.0\EgyptianRecipes.Persistence.dll
 G:\asp.net core source code\LINK DEV\EgyptianRecipes.Persistence\obj\Debug\net6.0\ref\EgyptianRecipes.Persistence.dll
 G:\asp.net core source code\LINK DEV\EgyptianRecipes.Persistence\obj\Debug\net6.0\EgyptianRecipes.Persistence.pdb
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\obj\Debug\net6.0\EgyptianRecipes.Persistence.csproj.AssemblyReference.cache
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\obj\Debug\net6.0\EgyptianRecipes.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\obj\Debug\net6.0\EgyptianRecipes.Persistence.AssemblyInfoInputs.cache
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\obj\Debug\net6.0\EgyptianRecipes.Persistence.AssemblyInfo.cs
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\obj\Debug\net6.0\EgyptianRecipes.Persistence.csproj.CoreCompileInputs.cache
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\bin\Debug\net6.0\EgyptianRecipes.Persistence.deps.json
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\bin\Debug\net6.0\EgyptianRecipes.Persistence.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\bin\Debug\net6.0\ref\EgyptianRecipes.Persistence.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\bin\Debug\net6.0\EgyptianRecipes.Persistence.pdb
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\bin\Debug\net6.0\EgyptianRecipes.Application.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\bin\Debug\net6.0\EgyptianRecipes.Domain.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\bin\Debug\net6.0\EgyptianRecipes.Application.pdb
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\bin\Debug\net6.0\EgyptianRecipes.Domain.pdb
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\obj\Debug\net6.0\EgyptianRecipes.Persistence.csproj.CopyComplete
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\obj\Debug\net6.0\EgyptianRecipes.Persistence.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\obj\Debug\net6.0\ref\EgyptianRecipes.Persistence.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Persistence\obj\Debug\net6.0\EgyptianRecipes.Persistence.pdb

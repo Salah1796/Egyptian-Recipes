@@ -56,7 +56,7 @@ namespace EgyptianRecipes.Application.Features.Branchs.Queries.GetBranchesList
                 }
                 if (!string.IsNullOrEmpty(request.ManagerName))
                 {
-                    branchesQuery = branchesQuery.Where(br => br.ManagerName.Contains(request.ManagerName));
+                    branchesQuery = branchesQuery.Where(br => br.Manager.Name.Contains(request.ManagerName));
                 }
                 if (request.FromClosingHour.HasValue)
                 {
@@ -76,11 +76,13 @@ namespace EgyptianRecipes.Application.Features.Branchs.Queries.GetBranchesList
                 }
                 #endregion
 
-                var BranchesList = await branchesQuery
-                    .ProjectTo<GetBranchesListRespnseViewModel>(_mapper.ConfigurationProvider)
-                    .ToListAsync();
+                var branchesListQuery =  branchesQuery
+                    .ProjectTo<GetBranchesListRespnseViewModel>(_mapper.ConfigurationProvider);
+                var sql = branchesListQuery.ToQueryString();
 
-                response.Data = BranchesList;
+                var BranchesList =  await branchesListQuery.ToListAsync();
+
+                response.Data =  BranchesList;
                 response.Pagination = request.Pagination;
             }
             return response;

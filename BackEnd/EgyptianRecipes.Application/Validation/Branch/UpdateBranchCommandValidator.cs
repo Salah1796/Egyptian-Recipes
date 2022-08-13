@@ -16,13 +16,13 @@ namespace EgyptianRecipes.Application.Validation.Branch
                   .NotEmpty().WithMessage("{PropertyName} is required.")
                   .MaximumLength(200).WithMessage("{PropertyName} must not exceed 200 characters.");
 
-            RuleFor(p => p.ManagerName)
-               .NotEmpty().WithMessage("{PropertyName} is required.")
-               .MaximumLength(250).WithMessage("{PropertyName} must not exceed 250 characters.");
+            RuleFor(p => p.ManagerId)
+              .NotEmpty().WithMessage("Manager is required.");
 
             RuleFor(p => p.ClosingHour.TimeOfDay)
                .NotEmpty().WithMessage("{PropertyName} is required.")
                .GreaterThan(p => p.OpeningHour.TimeOfDay).WithMessage("ClosingHour must be Greater than  OpeningHour")
+               
                ;
             RuleFor(p => p.OpeningHour.TimeOfDay)
                .NotEmpty().WithMessage("{PropertyName} is required.");

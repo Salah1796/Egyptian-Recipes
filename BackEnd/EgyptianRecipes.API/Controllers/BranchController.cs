@@ -2,6 +2,7 @@ using AutoMapper;
 using EgyptianRecipes.Application.AutoMapper;
 using EgyptianRecipes.Application.Common.Responses;
 using EgyptianRecipes.Application.Features.Branchs.Queries.GetBranchesList;
+using EgyptianRecipes.Application.Models.ViewModels.Branch;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using MinistryOfHealthService.Core.Models.ViewModels;
@@ -28,22 +29,14 @@ namespace EgyptianRecipes.API.Controllers
 
         [Route("Get")]
         [HttpPost]
-        public async Task<BasePaginatedResponse<List<BrandLightViewModel>>> Get(BranchSearchModel branchSearchModel)
+        public async Task<BasePaginatedResponse<List<BranchLightViewModel>>> Get(BranchSearchModel branchSearchModel)
         {
-            var result = new BasePaginatedResponse<List<BrandLightViewModel>>();
+            var result = new BasePaginatedResponse<List<BranchLightViewModel>>();
             var branchesListQuery = branchSearchModel.ToBranchesListQuery(_mapper);
             if (branchesListQuery != null)
             {
                 var response = await _mediator.Send(branchesListQuery);
-                result = new BasePaginatedResponse<List<BrandLightViewModel>>()
-                {
-                    Pagination = response.Pagination,
-                    Code = response.Code,
-                    Data = response.Data.Select(e => e.ToBrancheLightViewModel(_mapper)).ToList(),
-                    Message = response.Message,
-                    Success = response.Success,
-                    ValidationErrors = response.ValidationErrors
-                };
+                result = response.BasePaginatedResponse<List<BranchLightViewModel>>(_mapper);
             }
             return result;
         }
@@ -57,14 +50,7 @@ namespace EgyptianRecipes.API.Controllers
             if (branchCreateCommand != null)
             {
                 var response = await _mediator.Send(branchCreateCommand);
-                result = new BaseResponse<BranchViewModel>()
-                {
-                    Code = response.Code,
-                    Data = response.Data?.ToBranchViewModel(_mapper),
-                    Message = response.Message,
-                    Success = response.Success,
-                    ValidationErrors = response.ValidationErrors
-                };
+                result = response.ToBaseResponse<BranchViewModel>(_mapper);
             }
             return result;
         }
@@ -78,18 +64,26 @@ namespace EgyptianRecipes.API.Controllers
             if (branchUpdateCommand != null)
             {
                 var response = await _mediator.Send(branchUpdateCommand);
-                result = response.ToBaseResponse(_mapper);
-                //result = new BaseResponse<BranchViewModel>()
-                //{
-                //    Code = response.Code,
-                //    Data = response.Data?.ToBranchViewModel(_mapper),
-                //    Message = response.Message,
-                //    Success = response.Success,
-                //    ValidationErrors = response.ValidationErrors
-                //};
+                result = response.ToBaseResponse<BranchViewModel>(_mapper);
             }
             return result;
         }
+
+
+        [Route("AddReservation")]
+        [HttpPost]
+        public async Task<BaseResponse<BranchViewModel>> AddReservation(BranchReservationViewModel branchReservationViewModel)
+        {
+            var result = new BaseResponse<BranchViewModel>();
+            var branchCreateCommand = branchReservationViewModel.ToBranchReservationViewModel(_mapper);
+            if (branchCreateCommand != null)
+            {
+                var response = await _mediator.Send(branchCreateCommand);
+                //result = response.ToBaseResponse<BranchViewModel>(_mapper);
+            }
+            return result;
+        }
+
     }
 }
     

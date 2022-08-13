@@ -888,11 +888,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\asp.net core source code\\LINK DEV\\EgyptianRecipes.Application\\EgyptianRecipes.Application.csproj",
+      "projectUniqueName": "G:\\asp.net core source code\\Egyptian-Recipes\\Egyptian-Recipes\\BackEnd\\EgyptianRecipes.Application\\EgyptianRecipes.Application.csproj",
       "projectName": "EgyptianRecipes.Application",
-      "projectPath": "G:\\asp.net core source code\\LINK DEV\\EgyptianRecipes.Application\\EgyptianRecipes.Application.csproj",
+      "projectPath": "G:\\asp.net core source code\\Egyptian-Recipes\\Egyptian-Recipes\\BackEnd\\EgyptianRecipes.Application\\EgyptianRecipes.Application.csproj",
       "packagesPath": "C:\\Users\\Salah\\.nuget\\packages\\",
-      "outputPath": "G:\\asp.net core source code\\LINK DEV\\EgyptianRecipes.Application\\obj\\",
+      "outputPath": "G:\\asp.net core source code\\Egyptian-Recipes\\Egyptian-Recipes\\BackEnd\\EgyptianRecipes.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Salah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -910,8 +910,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "G:\\asp.net core source code\\LINK DEV\\EgyptianRecipes.Domain\\EgyptianRecipes.Domain.csproj": {
-              "projectPath": "G:\\asp.net core source code\\LINK DEV\\EgyptianRecipes.Domain\\EgyptianRecipes.Domain.csproj"
+            "G:\\asp.net core source code\\Egyptian-Recipes\\Egyptian-Recipes\\BackEnd\\EgyptianRecipes.Domain\\EgyptianRecipes.Domain.csproj": {
+              "projectPath": "G:\\asp.net core source code\\Egyptian-Recipes\\Egyptian-Recipes\\BackEnd\\EgyptianRecipes.Domain\\EgyptianRecipes.Domain.csproj"
             }
           }
         }

@@ -15,3 +15,20 @@ G:\asp.net core source code\LINK DEV\EgyptianRecipes.Infrastructure\obj\Debug\ne
 G:\asp.net core source code\LINK DEV\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\EgyptianRecipes.Infrastructure.dll
 G:\asp.net core source code\LINK DEV\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\ref\EgyptianRecipes.Infrastructure.dll
 G:\asp.net core source code\LINK DEV\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\EgyptianRecipes.Infrastructure.pdb
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\EgyptianRecipes.Infrastructure.csproj.AssemblyReference.cache
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\EgyptianRecipes.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\EgyptianRecipes.Infrastructure.AssemblyInfoInputs.cache
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\EgyptianRecipes.Infrastructure.AssemblyInfo.cs
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\EgyptianRecipes.Infrastructure.csproj.CoreCompileInputs.cache
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\bin\Debug\net6.0\EgyptianRecipes.Infrastructure.deps.json
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\bin\Debug\net6.0\EgyptianRecipes.Infrastructure.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\bin\Debug\net6.0\ref\EgyptianRecipes.Infrastructure.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\bin\Debug\net6.0\EgyptianRecipes.Infrastructure.pdb
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\bin\Debug\net6.0\EgyptianRecipes.Application.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\bin\Debug\net6.0\EgyptianRecipes.Domain.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\bin\Debug\net6.0\EgyptianRecipes.Application.pdb
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\bin\Debug\net6.0\EgyptianRecipes.Domain.pdb
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\EgyptianRecipes.Infrastructure.csproj.CopyComplete
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\EgyptianRecipes.Infrastructure.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\ref\EgyptianRecipes.Infrastructure.dll
+G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Infrastructure\obj\Debug\net6.0\EgyptianRecipes.Infrastructure.pdb

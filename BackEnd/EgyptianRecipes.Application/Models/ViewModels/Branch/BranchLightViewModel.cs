@@ -5,11 +5,11 @@ using System.Diagnostics;
 
 namespace MinistryOfHealthService.Core.Models.ViewModels
 {
-    [DebuggerDisplay("Pagination={Pagination}, Sorting={Sorting}, Title={Title}")]
-    public class BrandLightViewModel
+    [DebuggerDisplay("Id ={Id} , Title={Title}")]
+    public class BranchLightViewModel
     {
         #region Constructors
-        public BrandLightViewModel()
+        public BranchLightViewModel()
         {
         }
         #endregion

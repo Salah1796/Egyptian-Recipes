@@ -13,13 +13,22 @@ namespace EgyptianRecipes.Persistence
     {
         public static IServiceCollection AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
         {
+            #region AddDbContext
             services.AddDbContext<EgyptianRecipesDbContext>(options =>
             {
                 options.UseSqlServer(configuration["ConnectionString:EgyptianRecipesConnection"],
                 b => b.MigrationsAssembly("EgyptianRecipes.Persistence"));
             });
+            #endregion
+
+            #region Repositorys
             services.AddScoped<IBranchRepository, BranchRepository>();
+            services.AddScoped<IManagerRepository, ManagerRepository>();
+            #endregion
+
+            #region UnitOfWork
             services.AddScoped<IUnitOfWorkAsync, UnitOfWorkAsync>();
+            #endregion
 
             return services;    
         }

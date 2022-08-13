@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kCh26KBrE8n2X+jK60Uv9zAQbEJ0yNXdQwU33re+MGXcX0EVy9cBClpWNPUpl1yQ5Mx8Mpa50zSPG6fhFT9vXg==",
+  "dgSpecHash": "Vny1o+/aZ/ToIC3eZIBbLK2HQ8/YLbCGXeNsZjOPTZqZEVvug5bxVTE0YEoOEuWlCNeMPoaLz7u+0KPIHdbABw==",
   "success": true,
-  "projectFilePath": "G:\\asp.net core source code\\LINK DEV\\EgyptianRecipes.Persistence\\EgyptianRecipes.Persistence.csproj",
+  "projectFilePath": "G:\\asp.net core source code\\Egyptian-Recipes\\Egyptian-Recipes\\BackEnd\\EgyptianRecipes.Persistence\\EgyptianRecipes.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Salah\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Salah\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

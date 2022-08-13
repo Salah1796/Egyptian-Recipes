@@ -15,7 +15,7 @@ namespace MinistryOfHealthService.Core.Models.ViewModels
         public string Title { get; set; }
         public DateTime OpeningHour { get; set; }
         public DateTime ClosingHour { get; set; }
-        public string ManagerName { get; set; }
+        public Guid ManagerId { get; set; }
         #endregion
     }
 }

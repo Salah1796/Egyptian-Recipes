@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U5gFhHQCSV+J68Oub3NH8YzcIt98lfEJPqhgIhw8zOLmIeoL8NOgDBy3FaGbGb9ne+ttbuiKJ5S79/Y/YRaxJw==",
+  "dgSpecHash": "NnaUqHHSH4YzhHiDMzAATpi3kbHcG9KEsd0di/Sh/02M2E2A7z7ZJnQeIf7TxEOmKp2DC8REwHRDDN8yBwLQDQ==",
   "success": true,
-  "projectFilePath": "G:\\asp.net core source code\\LINK DEV\\EgyptianRecipes.Infrastructure\\EgyptianRecipes.Infrastructure.csproj",
+  "projectFilePath": "G:\\asp.net core source code\\Egyptian-Recipes\\Egyptian-Recipes\\BackEnd\\EgyptianRecipes.Infrastructure\\EgyptianRecipes.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Salah\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Salah\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

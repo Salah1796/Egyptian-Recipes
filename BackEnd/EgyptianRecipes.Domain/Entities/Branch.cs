@@ -38,6 +38,7 @@ namespace EgyptianRecipes.Domain.Entities
         public string Title { get; set; }
         public DateTime OpeningHour { get; set; }
         public DateTime ClosingHour { get; set; }
-        public string ManagerName  { get; set; }
+        public Guid ManagerId { get; set; }
+        public Manager Manager { get; set; }
     }
 }

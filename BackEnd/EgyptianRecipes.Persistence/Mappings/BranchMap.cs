@@ -11,7 +11,6 @@ namespace EgyptianRecipes.Persistence.Repositories.Mappings
         {
             #region Configure Fields
             builder.Property(prop => prop.Title).HasMaxLength(200);
-            builder.Property(prop => prop.ManagerName).HasMaxLength(250);
             #endregion
         }
         #endregion

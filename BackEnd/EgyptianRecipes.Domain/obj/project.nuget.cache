@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EuyX92+1vW+SsdHHdYqZqp5cc+rO6jYj/qetB/oZrV4GCpEduMaJI+ObwDaxU4+XhJiCGvqwzuuHDUVThNXU/w==",
+  "dgSpecHash": "musVhisus8Ye7VL6mZF4t1XTxIoVzRjuXIQ5b0rn9Bh6EHM3nqa8B+uocxGGB1qyif9/cX3v4rvLeWHnYu4Mug==",
   "success": true,
-  "projectFilePath": "G:\\asp.net core source code\\LINK DEV\\EgyptianRecipes.Domain\\EgyptianRecipes.Domain.csproj",
+  "projectFilePath": "G:\\asp.net core source code\\Egyptian-Recipes\\Egyptian-Recipes\\BackEnd\\EgyptianRecipes.Domain\\EgyptianRecipes.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Salah\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Salah\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
