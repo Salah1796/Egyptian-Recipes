@@ -24,6 +24,8 @@ namespace EgyptianRecipes.Persistence
             #region Repositorys
             services.AddScoped<IBranchRepository, BranchRepository>();
             services.AddScoped<IManagerRepository, ManagerRepository>();
+            services.AddScoped<IBranchReservationRepository, BranchReservationRepository>();
+
             #endregion
 
             #region UnitOfWork

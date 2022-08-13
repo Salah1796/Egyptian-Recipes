@@ -1,8 +1,10 @@
 using AutoMapper;
 using EgyptianRecipes.Application.AutoMapper;
 using EgyptianRecipes.Application.Common.Responses;
+using EgyptianRecipes.Application.Features.Branchs.Commands.BranchReservation;
 using EgyptianRecipes.Application.Features.Branchs.Queries.GetBranchesList;
 using EgyptianRecipes.Application.Models.ViewModels.Branch;
+using EgyptianRecipes.Application.Models.ViewModels.BranchReservation;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using MinistryOfHealthService.Core.Models.ViewModels;
@@ -72,14 +74,14 @@ namespace EgyptianRecipes.API.Controllers
 
         [Route("AddReservation")]
         [HttpPost]
-        public async Task<BaseResponse<BranchViewModel>> AddReservation(BranchReservationViewModel branchReservationViewModel)
+        public async Task<BaseResponse<BranchReservationViewModel>> AddReservation(BranchReservationCreateViewModel branchReservationViewModel)
         {
-            var result = new BaseResponse<BranchViewModel>();
-            var branchCreateCommand = branchReservationViewModel.ToBranchReservationViewModel(_mapper);
+            var result = new BaseResponse<BranchReservationViewModel>();
+            var branchCreateCommand = _mapper.Map<BranchReservationCommand>(branchReservationViewModel);
             if (branchCreateCommand != null)
             {
                 var response = await _mediator.Send(branchCreateCommand);
-                //result = response.ToBaseResponse<BranchViewModel>(_mapper);
+                result = _mapper.Map<BaseResponse<BranchReservationViewModel>>(response);
             }
             return result;
         }

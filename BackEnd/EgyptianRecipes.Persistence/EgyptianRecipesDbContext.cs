@@ -17,6 +17,7 @@ namespace EgyptianRecipes.Persistence
 
         public DbSet<Branch> Branches { get; set; }
         public DbSet<Manager> Managers { get; set; }
+        public DbSet<BranchReservation> BranchReservations { get; set; }    
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new BranchMap());

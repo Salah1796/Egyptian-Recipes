@@ -7,6 +7,7 @@ using EgyptianRecipes.Application.Features.Branchs.Commands.UpdateBranch;
 using EgyptianRecipes.Application.Features.Branchs.Queries.GetBranchesList;
 using EgyptianRecipes.Application.Features.Manger.Queries.GetManagersLookup;
 using EgyptianRecipes.Application.Models.ViewModels.Branch;
+using EgyptianRecipes.Application.Models.ViewModels.BranchReservation;
 using EgyptianRecipes.Application.Models.ViewModels.Manager;
 using EgyptianRecipes.Domain.Entities;
 using MinistryOfHealthService.Core.Models.ViewModels;
@@ -47,9 +48,11 @@ namespace EgyptianRecipes.Application.AutoMapper
             #endregion
 
             #region Reservation
-            CreateMap<BranchReservationViewModel, BranchReservationCommand>();
-            CreateMap<BranchReservationResponseViewModel, BranchViewModel>();
-            CreateMap<BranchReservationCommandResponse, BaseResponse<BranchViewModel>>();
+            CreateMap<BranchReservationCreateViewModel, BranchReservationCommand>();
+            CreateMap<BranchReservationCommand, BranchReservation>();
+            CreateMap<BranchReservation, BranchReservationResponseViewModel>();
+            CreateMap<BranchReservationResponseViewModel, BranchReservationViewModel>();
+            CreateMap<BranchReservationCommandResponse, BaseResponse<BranchReservationViewModel>>();
 
             #endregion
             #endregion

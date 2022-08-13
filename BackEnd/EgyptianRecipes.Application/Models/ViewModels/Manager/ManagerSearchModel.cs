@@ -8,7 +8,7 @@ using System.Diagnostics;
 namespace MinistryOfHealthService.Core.Models.ViewModels
 {
     [DebuggerDisplay("Pagination={Pagination}, Sorting={Sorting}, Name={Name}")]
-    public class ManagerSearchModel : BaseFilter
+    public class ManagerSearchModel
     {
         #region Constructors
         public ManagerSearchModel()

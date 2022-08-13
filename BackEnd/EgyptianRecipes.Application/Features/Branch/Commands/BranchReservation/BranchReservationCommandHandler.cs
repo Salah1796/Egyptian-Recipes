@@ -10,45 +10,44 @@ using System.Threading.Tasks;
 using EgyptianRecipes.Application.AutoMapper;
 using EgyptianRecipes.Application.Validation.Branch;
 using FluentValidation;
+using EgyptianRecipes.Application.Models.ViewModels.BranchReservation;
 
 namespace EgyptianRecipes.Application.Features.Branchs.Commands.BranchReservation
 {
     public class BranchReservationCommandHandler : IRequestHandler<BranchReservationCommand, BranchReservationCommandResponse>
     {
-        private readonly IBranchRepository _branchRepository;
+        private readonly IBranchReservationRepository _branchReservationRepository;
         private readonly IMapper _mapper;
         private readonly IUnitOfWorkAsync _unitOfWorkAsync;
         private readonly IValidator<BranchReservationCommand> _validator;
 
-        public BranchReservationCommandHandler(IMapper mapper, IBranchRepository branchRepository, IUnitOfWorkAsync unitOfWorkAsync, IValidator<BranchReservationCommand> validator)
+        public BranchReservationCommandHandler(IMapper mapper, IUnitOfWorkAsync unitOfWorkAsync, IValidator<BranchReservationCommand> validator, IBranchReservationRepository branchReservationRepository)
         {
             _mapper = mapper;
-            _branchRepository = branchRepository;
             _unitOfWorkAsync = unitOfWorkAsync;
             _validator = validator;
+            _branchReservationRepository = branchReservationRepository;
         }
 
         public async Task<BranchReservationCommandResponse> Handle(BranchReservationCommand request, CancellationToken cancellationToken)
         {
-            var createCategoryCommandResponse = new BranchReservationCommandResponse();
+            var branchReservationCommandResponse = new BranchReservationCommandResponse();
 
             var validationResult = await _validator.ValidateAsync(request);
             if (!validationResult.IsValid)
             {
-                createCategoryCommandResponse.Success = false;
-                createCategoryCommandResponse.Code = Common.Enums.StatusCode.ValidationError;
-                createCategoryCommandResponse.ValidationErrors = validationResult.Errors.Select(x => x.ErrorMessage).ToList();
+                branchReservationCommandResponse.Success = false;
+                branchReservationCommandResponse.Code = Common.Enums.StatusCode.ValidationError;
+                branchReservationCommandResponse.ValidationErrors = validationResult.Errors.Select(x => x.ErrorMessage).ToList();
             }
             else 
             {
-              //  var branch = request.ToModel(_mapper);
-
-               // branch = await _branchRepository.AddAsync(branch);
-               // await  _unitOfWorkAsync.CommitAsync();
-
-                //createCategoryCommandResponse.Data = branch.ToCreateResponseViewModel(_mapper);
+                var branchReservation = _mapper.Map<Domain.Entities.BranchReservation>(request);
+                branchReservation = await _branchReservationRepository.AddAsync(branchReservation);
+                await  _unitOfWorkAsync.CommitAsync();
+                branchReservationCommandResponse.Data = _mapper.Map<BranchReservationResponseViewModel>(branchReservation); 
             }
-            return createCategoryCommandResponse;
+            return branchReservationCommandResponse;
         }
     }
 }

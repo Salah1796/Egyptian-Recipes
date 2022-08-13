@@ -36,15 +36,17 @@ namespace EgyptianRecipes.Application.Validation.Branch
             RuleFor(p => p.ClosingHour.TimeOfDay)
                .NotEmpty().WithMessage("{PropertyName} is required.")
                .GreaterThan(p => p.OpeningHour.TimeOfDay).WithMessage("ClosingHour must be Greater than  OpeningHour")
-               .WithMessage($"Closing Hour must be Greater Than Or Equal To {minDate.TimeOfDay}")
-               .LessThanOrEqualTo(maxDate.TimeOfDay)
-               .WithMessage($"Closing Hour must be Less Than Or Equal To {maxDate.TimeOfDay}");
+               .GreaterThanOrEqualTo(minDate.TimeOfDay).WithMessage($"Closing Hour must be Greater Than Or Equal To {minDate.TimeOfDay}")
+               .LessThanOrEqualTo(maxDate.TimeOfDay).WithMessage($"Closing Hour must be Less Than Or Equal To {maxDate.TimeOfDay}");
+
+            RuleFor(p => p.ClosingHour.Minute)
+                .Must(x=> x == 0 || x == 30)
+                 .WithMessage($"Closing Hour  must be 30 minutes interval ");
 
 
-            RuleFor(p => p.ClosingHour.TimeOfDay.Subtract(p.OpeningHour.TimeOfDay).TotalMinutes)
-                .Equal(30)
-                .WithMessage("Openning Time  must be 30 minutes");
-
+            RuleFor(p => p.OpeningHour.Minute)
+                .Must(x => x == 0 || x == 30)
+                 .WithMessage($"Closing Hour  must be 30 minutes interval ");
 
         }
     }

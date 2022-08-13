@@ -7,6 +7,7 @@ using EgyptianRecipes.Application.Features.Branchs.Commands.UpdateBranch;
 using EgyptianRecipes.Application.Features.Branchs.Queries.GetBranchesList;
 using EgyptianRecipes.Application.Features.Manger.Queries.GetManagersLookup;
 using EgyptianRecipes.Application.Models.ViewModels.Branch;
+using EgyptianRecipes.Application.Models.ViewModels.BranchReservation;
 using EgyptianRecipes.Application.Models.ViewModels.Manager;
 using EgyptianRecipes.Domain.Entities;
 using MinistryOfHealthService.Core.Models.ViewModels;
@@ -92,9 +93,9 @@ namespace EgyptianRecipes.Application.AutoMapper
             return result;
         }
 
-        public static BranchReservationCommand ToBranchReservationViewModel(this BranchReservationViewModel entity, IMapper mapper)
+        public static BranchReservationCommand ToBranchReservationViewModel(this BranchReservationCreateViewModel entity, IMapper mapper)
         {
-            var result = mapper.Map<BranchReservationViewModel, BranchReservationCommand>(entity);
+            var result = mapper.Map<BranchReservationCreateViewModel, BranchReservationCommand>(entity);
             return result;
         }
 
