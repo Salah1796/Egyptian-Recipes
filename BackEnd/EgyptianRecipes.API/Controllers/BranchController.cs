@@ -7,7 +7,7 @@ using EgyptianRecipes.Application.Models.ViewModels.Branch;
 using EgyptianRecipes.Application.Models.ViewModels.BranchReservation;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using MinistryOfHealthService.Core.Models.ViewModels;
+using EgyptianRecipes.Application.Models.ViewModels;
 
 namespace EgyptianRecipes.API.Controllers
 {

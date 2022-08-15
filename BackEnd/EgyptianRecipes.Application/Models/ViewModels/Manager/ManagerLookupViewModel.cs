@@ -3,7 +3,7 @@ using System;
 using System.Diagnostics;
 #endregion
 
-namespace MinistryOfHealthService.Core.Models.ViewModels
+namespace EgyptianRecipes.Application.Models.ViewModels
 {
     [DebuggerDisplay("Id={Id} , Name={Name}")]
     public class ManagerLookupViewModel

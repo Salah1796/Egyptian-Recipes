@@ -5,7 +5,7 @@ using System;
 using System.Diagnostics;
 #endregion
 
-namespace MinistryOfHealthService.Core.Models.ViewModels
+namespace EgyptianRecipes.Application.Models.ViewModels
 {
     [DebuggerDisplay("Pagination={Pagination}, Sorting={Sorting}, Title={Title}")]
     public class BranchSearchModel : BaseFilter

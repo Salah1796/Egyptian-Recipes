@@ -10,7 +10,7 @@ using EgyptianRecipes.Application.Models.ViewModels.Branch;
 using EgyptianRecipes.Application.Models.ViewModels.BranchReservation;
 using EgyptianRecipes.Application.Models.ViewModels.Manager;
 using EgyptianRecipes.Domain.Entities;
-using MinistryOfHealthService.Core.Models.ViewModels;
+using EgyptianRecipes.Application.Models.ViewModels;
 using System.Collections.Generic;
 
 namespace EgyptianRecipes.Application.AutoMapper
