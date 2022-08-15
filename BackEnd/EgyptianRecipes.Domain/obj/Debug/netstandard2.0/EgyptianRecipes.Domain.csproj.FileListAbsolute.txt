@@ -17,4 +17,3 @@ G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRe
 G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Domain\obj\Debug\netstandard2.0\EgyptianRecipes.Domain.csproj.CoreCompileInputs.cache
 G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Domain\obj\Debug\netstandard2.0\EgyptianRecipes.Domain.dll
 G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Domain\obj\Debug\netstandard2.0\EgyptianRecipes.Domain.pdb
-G:\asp.net core source code\Egyptian-Recipes\Egyptian-Recipes\BackEnd\EgyptianRecipes.Domain\obj\Debug\netstandard2.0\EgyptianRecipes.Domain.csproj.AssemblyReference.cache

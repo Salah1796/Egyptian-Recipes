@@ -25,7 +25,12 @@
       "ProjectGuid": "23ef7b34-e16d-489c-bfcf-83e1384f2ee0",
       "DisplayName": "EgyptianRecipes.API",
       "ColorIndex": 3
+    },
+    "3af3d93a-2b79-480c-b20e-78b066783039": {
+      "ProjectGuid": "3af3d93a-2b79-480c-b20e-78b066783039",
+      "DisplayName": "EgyptianRecipes.Infrastructure",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
